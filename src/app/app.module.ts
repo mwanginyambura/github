@@ -7,7 +7,7 @@ import { RepoComponent } from './repo/repo.component';
 import { GitService } from './github/git.service';
 import { RoutingModule } from './routing/routing.module';
 import { PriceDirective } from './price.directive';
-import { PropPipe } from './prop.pipe';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { PropPipe } from './prop.pipe';
     UserComponent,
     RepoComponent,
     PriceDirective,
-    PropPipe
+    
 
   ],
   imports: [
