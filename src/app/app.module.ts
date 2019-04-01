@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { RepoComponent } from './repo/repo.component';
 import { GitService } from './github/git.service';
-import { NotFoundComponent } from './not-found/not-found.component';
 import { RoutingModule } from './routing/routing.module';
 import { PriceDirective } from './price.directive';
 import { PropPipe } from './prop.pipe';
@@ -15,7 +14,6 @@ import { PropPipe } from './prop.pipe';
     AppComponent,
     UserComponent,
     RepoComponent,
-    NotFoundComponent,
     PriceDirective,
     PropPipe
 
