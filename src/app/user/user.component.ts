@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GitService } from '../gity/git.service';
+import { GitService } from '../github/git.service';
 
 @Component({
   selector: 'app-user',
